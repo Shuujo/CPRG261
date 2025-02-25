@@ -1,0 +1,167 @@
+.Afton{
+    text-align: center;
+    font-size: 10em;
+}
+
+.aftonTable
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1em;
+    align-items: center;
+    border: 1em;
+    border-color: aliceblue;
+    border-style: outset;
+}
+
+.aftonTable tr td
+{
+    text-align: center;
+    border: 1em;
+    border-color: black;
+    padding: 1em;
+    border-style: solid;
+}
+
+body {
+    font-family: 'Comic Sans MS';
+    /* background-image: linear-gradient(#997d7d, rgb(78, 78, 78)); */
+    background-color: #290439;
+    margin:0;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body:hover{
+    color: pink;
+    /* background-color: #a789a8; */
+}
+
+.bodyContainer
+{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Fazbear
+{
+    font-size: 3em;
+    color: rgb(210, 226, 239);
+    text-align: center;
+}
+
+.Fazbear:hover{
+    color: black;
+}
+
+.heading
+{
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: #7b3b3b;
+}
+
+.heading h1
+{
+    text-align: center;
+    font-size: 3em;
+}
+
+
+.links table
+{
+    width: 100%;
+}
+
+.links table td
+{
+    width: 30%;
+}
+
+/* NAVBAR **********************************************/
+
+nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* position: fixed; */
+    width: 100%;
+    top: 0;
+    background-color: #1d1c1c;
+}
+
+nav ul li
+{
+    float: left;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: rgb(254, 216, 216);
+    display: block;
+    padding: 0.5em 0.5em;
+    background-color: #1d1c1c;
+}
+
+nav ul li a:hover:not(.active)
+{
+    background-color: #533b42;
+}
+
+ol
+{
+    list-style-type: none;
+}
+
+.active
+{
+    background-color: rgb(58, 183, 141);
+    color: black;
+}
+
+/* NAVBAR END **************************************************/
+
+img
+{
+    visibility: visible;
+    width: 4em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.face
+{
+    width: 50%;
+}
+
+img.balloon
+{
+    width: 100%;
+    margin-left: 0;
+}
+
+.intro
+{
+    background-color: rgb(130, 155, 135);
+    padding: 2em;
+    border-radius: 1em;
+}
+
+.intro:hover
+{
+    background-color: black;
+}
+
+.whyframe
+{
+    width: 100%;
+    height: 30em;
+}
